@@ -345,3 +345,72 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+/* responsiveness */
+@media only screen and (max-width: 768px){
+    .nav-bar {
+        justify-content: flex-end;
+        padding: 1rem 7rem;
+    }
+    #navBar{
+        display: block;
+    }
+    .hero-section {
+        justify-content: center;
+    }
+
+    .hero-content-btn a {
+        margin-left: 0px;
+    }
+    .background {
+        height: 500px;
+    }
+    .background h4 {
+        padding: 1rem;
+    }
+    .background p {
+        padding: 1rem;
+    }
+    .snapshot-box {
+        flex-direction: column;
+    }
+    .hero-background-pos {
+        display: none;
+    }
+    .snapshot-box-content {
+        flex-direction: column;
+    }
+    ul li a {
+        display: none;
+    }
+    .snapshot-team p {
+        letter-spacing: 1px;
+    }
+    input[type="email"] {
+        width: 60%;
+        padding: 10px 20px;
+    }
+
+    input[type="text"] {
+        width: 65%;
+        padding: 10px 20px;
+    }
+
+    textarea {
+        width: 93%;
+    }
+}
+    .nav-bar a:hover {
+        color: black;
+     }
+     .active {
+        background: linear-gradient(to top, #07f72f 0%, #c7e711 100%);
+        color: #f7ebeb;
+     }
+     .nav-bar a:not(:first-child) {display: none;}
+    .nav-bar a.icon {
+       float: right;
+       display: block;
+    }
+
+
